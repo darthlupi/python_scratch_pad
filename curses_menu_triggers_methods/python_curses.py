@@ -96,11 +96,11 @@ class CreateInventory(object):
         #Set the menu items
         #(Display text 1,display text 2 ( concat with 1 ) , function to call,paramter for function if needed )
         self.items = [
-                ('Dynac Hostname: ',  self.appserver_servers['appserver_1']['fqdn'], self.set_field,0 ),
-                ('  Dynac IP: ',self.appserver_servers['appserver_1']['ip'],  self.set_field,1 ),
-                ('  Dynac Node Name: ',self.appserver_servers['appserver_1']['node'], self.set_field,2 ),
-                ('MAPSERVER Remapservertration Node Hostname: ',self.mapserver_servers['mapserver_1']['fqdn'],self.set_field,3 ),
-                ('  MAPSERVER Remapservertration Node IP Address: ',self.mapserver_servers['mapserver_1']['ip'], self.set_field,4 ),
+                ('App Server Hostname: ',  self.appserver_servers['appserver_1']['fqdn'], self.set_field,0 ),
+                ('  App Server IP: ',self.appserver_servers['appserver_1']['ip'],  self.set_field,1 ),
+                ('  App Server Node Name: ',self.appserver_servers['appserver_1']['node'], self.set_field,2 ),
+                ('MAPSERVER  Node Hostname: ',self.mapserver_servers['mapserver_1']['fqdn'],self.set_field,3 ),
+                ('  MAPSERVER Node IP Address: ',self.mapserver_servers['mapserver_1']['ip'], self.set_field,4 ),
                 ('Save and Quit','', self.save_and_quit ),
                 ('Quit','', quit ),
                 ]
