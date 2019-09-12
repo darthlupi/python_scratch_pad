@@ -1,2 +1,2 @@
-# python_scratch_pad
-This is where I dump my pythonic musings 
+# python examples
+Place to collect my python examples and snippets.
